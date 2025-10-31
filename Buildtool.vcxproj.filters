@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Include">
+      <UniqueIdentifier>{45753967-3dc1-467f-818a-6570dd228fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files\Include">
+      <UniqueIdentifier>{cd844ab1-efde-4e5d-bbf4-dfe199ea2369}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ImportExport.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Utility\ExpansionForm.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Utility\FormLine.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Utility\Form.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\ImportExport.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Utility\OptionForm.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestMath\Core.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Builders\DatabaseBuilder.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Modules\EngineModule.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestCommunication\Event.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestMemory\MemoryGuards\ExchangeLock.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\GameLibrary\Core\GameObject.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestCommunication\Message.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Modules\ModuleEventSpace.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\GameLibrary\Core\ObjectInstance.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestCommunication\Observer.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestMath\Point3.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Engine\Builders\TypeBuilder.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ManifestMath\Vector3.cpp">
+      <Filter>Resource Files\Source Files\Include</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Support.h">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ImportExport.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\ImportExport.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Utility\ExpansionForm.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Utility\Form.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Utility\FormLine.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Utility\OptionForm.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Modules\EngineModule.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Modules\ModuleEventSpace.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Builders\DatabaseBuilder.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Engine\Builders\TypeBuilder.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameLibrary\Core\GameEvent.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameLibrary\Core\GameObject.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameLibrary\Core\ObjectInstance.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestCommunication\Event.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestCommunication\Message.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestCommunication\MessageOperators.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestCommunication\Observer.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMath\Core.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMath\Point3.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMath\Vector3.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMemory\StateBuffer.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMemory\MemoryGuards\ExchangeLock.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestMemory\Containers\FlatMap.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\Assert.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\Console_Color.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\DebugLogger.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\FixedString.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\SymbolHash.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\TypeAssist.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ManifestUtility\Typenames.h">
+      <Filter>Header Files\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
