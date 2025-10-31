@@ -9,82 +9,82 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Resource Files\Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="Header Files\Include">
       <UniqueIdentifier>{45753967-3dc1-467f-818a-6570dd228fde}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files\Source Files\Include">
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Include">
       <UniqueIdentifier>{cd844ab1-efde-4e5d-bbf4-dfe199ea2369}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Resource Files\Source Files</Filter>
+      <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Include\ImportExport.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Utility\ExpansionForm.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Utility\FormLine.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Utility\Form.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\ImportExport.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Utility\OptionForm.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestMath\Core.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Builders\DatabaseBuilder.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Modules\EngineModule.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestCommunication\Event.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestMemory\MemoryGuards\ExchangeLock.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\GameLibrary\Core\GameObject.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestCommunication\Message.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Modules\ModuleEventSpace.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\GameLibrary\Core\ObjectInstance.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestCommunication\Observer.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestMath\Point3.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\Engine\Builders\TypeBuilder.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
     <ClCompile Include="Include\ManifestMath\Vector3.cpp">
-      <Filter>Resource Files\Source Files\Include</Filter>
+      <Filter>Source Files\Include</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Support.h">
-      <Filter>Resource Files\Source Files</Filter>
+      <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="Include\ImportExport.h">
       <Filter>Header Files\Include</Filter>
